@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Etch-a-sketch</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <h1>ETCH-A-SKETCH</h1>
+    <button id='reset'>reset grid</button>
+    <div class='optionBtn'>
+        <button id='black'>black</button>
+        <button id='rgb'>rainbow</button>
+            <!-- <p>Select a color</p> -->
+        <div class id='sliderValue'><b>Select a size</b>
+            <input type='range' min='2' max='80' value='16' id='slide'>
+            <p class='size'><b>16</b></p>
+        </div>
+    
+        <!-- <button id='reset'>reset grid</button>  -->
+    </div>
+    <div id='container'></div>
+
+    <script src='main.js'></script>
+</body>
+</html>
+
